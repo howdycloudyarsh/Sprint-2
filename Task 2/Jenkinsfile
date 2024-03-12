@@ -16,8 +16,44 @@ pipeline {
         stage('Initializing Terraform'){
             steps{
                 script{
-                    dir('EKS'){
+                    dir('Task 2/EKS'){
                         sh 'terraform init'
+                    }
+                }
+            }
+        }
+        stage('Formatting Terraform Files'){
+            steps{
+                script{
+                    dir('Task 2/EKS'){
+                        sh 'terraform fmt'
+                    }
+                }
+            }
+        }
+        stage('Validating Terraform Files'){
+            steps{
+                script{
+                    dir('Task 2/EKS'){
+                        sh 'terraform validate'
+                    }
+                }
+            }
+        }
+        stage('Viewing Infra Using Terraform'){
+            steps{
+                script{
+                    dir('Task 2/EKS'){
+                        sh 'terraform plan'
+                    }
+                }
+            }
+        }
+        stage('Provisioning EKS Cluster'){
+            steps{
+                script{
+                    dir('Task 2/EKS'){
+                        sh 'terraform apply --auto-approve'
                     }
                 }
             }
