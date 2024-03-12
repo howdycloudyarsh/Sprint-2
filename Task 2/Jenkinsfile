@@ -58,6 +58,17 @@ pipeline {
                 }
             }
         }
+        stage('Deleting EKS Cluster'){
+            steps{
+                script{
+                    dir('Task 2/EKS'){
+                        sh 'terraform init'
+                        sh 'terraform destroy --auto-approve'
+                    }
+                }
+            }
+        }
+        
     }
 }
 
