@@ -100,6 +100,62 @@ Terraform apply --auto-approve
 ![image](https://github.com/howdycloudyarsh/Sprint-2/assets/133496386/8c27f562-3a47-4ef9-9525-9e66afc64f66)
 
 
+#### >>> Added another stage to build the infra. (creation on eks cluster)
+
+
+
+![image](https://github.com/howdycloudyarsh/Sprint-2/assets/133496386/844a2cf1-5a14-4355-b063-5de50beb7fb0)
+
+
+
+![image](https://github.com/howdycloudyarsh/Sprint-2/assets/133496386/5ce00c80-2278-45ad-b891-92ba24b3b172)
+
+
+
+![image](https://github.com/howdycloudyarsh/Sprint-2/assets/133496386/1186d589-6bde-4805-8c33-efcce37cec80)
+
+
+
+#### >>> Node Groups are getting created.
+
+
+
+![image](https://github.com/howdycloudyarsh/Sprint-2/assets/133496386/e46b5ca5-8a4a-465b-9e86-ad52b5d0ba09)
+
+
+
+![image](https://github.com/howdycloudyarsh/Sprint-2/assets/133496386/91cff678-56cc-4775-98a5-135fb009c75d)
+
+
+
+![image](https://github.com/howdycloudyarsh/Sprint-2/assets/133496386/b7d48dba-d180-4746-b490-db442a68d8c2)
+
+
+
+####  >>> Added another stage to delete the infra. (deletion eks cluster)
+
+
+
+![image](https://github.com/howdycloudyarsh/Sprint-2/assets/133496386/f9f11f6e-96f2-4160-856b-faacec537aab)
+
+
+
+![image](https://github.com/howdycloudyarsh/Sprint-2/assets/133496386/9e1fe5ff-5409-4406-a420-acd3fa5462ff)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
