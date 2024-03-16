@@ -33,8 +33,7 @@ module "vpc" {
 
 module "eks" {
   source = "terraform-aws-modules/eks/aws"
-
-  cluster_name    = "eks-cluster-01"
+  cluster_name    = "eks-cluster-001"
   cluster_version = "1.28"
 
   cluster_endpoint_public_access = true
@@ -48,7 +47,7 @@ module "eks" {
       max_size     = 3
       desired_size = 2
 
-      instance_type = ["t2.small"]
+      instance_types = ["t2.small"]
     }
   }
 
